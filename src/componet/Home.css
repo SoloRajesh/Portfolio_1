@@ -1,0 +1,69 @@
+.homeDiv {
+    margin: 50px;
+}
+.homeProfile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px   ;
+}
+
+.welcomeNote {
+    display: inline;
+    margin: 30px;
+    color: rgba(196, 192, 192, 0.842);
+    position: relative;
+    animation-name: welcomeNote;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
+
+#profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    position: relative;
+    animation-name: profile;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes profile {
+    from {
+        left: -100px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
+@keyframes welcomeNote {
+    from {
+        right: -100px;
+    }
+
+    to {
+        right: 0px ;
+    }
+}
+#content1{
+    font-size: 40px;
+    /* font-weight: bold; */
+    margin: 0px;
+}
+#content2{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0px;
+}
+#content3{
+    font-size: 25px;
+    font-weight: 300;
+
+}
+.active{
+    color: yellow;
+}

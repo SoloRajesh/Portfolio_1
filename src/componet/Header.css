@@ -1,0 +1,48 @@
+/* .bg-body-tertiary{
+    color: aqua;
+    border: 3px solid red;
+} */
+#role {
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
+@keyframes example {
+    from {left: -100px;}
+    to {left: 0px;}
+  }
+
+#menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.menuList {
+    display: inline;
+    width: 100px;
+
+}
+.menuItem{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(60, 77, 233);
+    font-weight: bold;
+}
+
+.menuItem:hover {
+    border-bottom: 2px solid red;
+    color: red;
+    font-weight: bold;
+}
+
+#devRole {
+    font-size: larger;
+    color: rgb(60, 77, 233);
+    font-weight: bold;
+}
+.menuList a.active{
+    color: yellow;
+}

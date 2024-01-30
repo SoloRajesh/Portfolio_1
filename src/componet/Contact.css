@@ -1,0 +1,26 @@
+.contactDiv{
+    margin: 30px;
+}
+.contactDetails{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 20px;
+    background-color: rgba(37, 36, 36, 0.651);
+    margin: 10px 0px;
+    padding: 20px;
+    list-style: none;
+    color: rgba(196, 192, 192, 0.842);
+}
+.addressList{
+    padding: 10px 0px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .contactDetails{
+        display: flex;
+        flex-direction: column;
+    }
+}
+

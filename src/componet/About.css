@@ -1,0 +1,48 @@
+.aboutDiv{
+    margin: 30px;
+}
+h2{
+    color: rgb(45, 163, 45);
+}
+.aboutPara{
+    text-align: justify;
+    font-size: large;
+    color: rgb(206, 203, 203);
+    background-color: rgba(37, 36, 36, 0.651);
+    padding: 10px;
+    border-radius: 20px;
+}
+.languages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    animation-name: languages;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes languages {
+    from {
+        bottom: -100px;
+    }
+
+    to {
+        bottom: 0px;
+    }
+}
+.languageImg{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.languageImg:hover{
+    transform: rotate(20deg);
+}
+.downloadFile{
+    display: flex;
+    justify-content: center;
+}
